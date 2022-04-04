@@ -4,7 +4,6 @@ package gspinoza.data_structures;
 import org.junit.Test;
 
 public class ArrayListTest {
-
   @Test
   public void testArrayList() {
     ArrayList <Integer> list = new ArrayList <> (100);

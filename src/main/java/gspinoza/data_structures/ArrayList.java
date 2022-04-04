@@ -9,7 +9,7 @@ public E get(int index)
 Try to define your own version of generic ArrayList, which has an array of elements. The methods include add, get, remove, contains, isEmpty and toString.
  */
 
-public class ArrayList < E > {
+public class ArrayList <E> {
   private E[] array;
   private int MAX_SIZE = 100;
   private int numOfItems;
